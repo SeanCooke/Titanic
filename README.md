@@ -3,7 +3,7 @@
 ## Results
 Achieving 86% accuracy on a test data set using an xgboost classifier to predict whether a passenger survived the Titanic disaster. 86% accuracy is also achieved on the training data set which indicates the model is not overfit to our training data
 
-### test set confusion matrix
+### Test Set Confusion Matrix
 ```
 Dead Correctly Classified as Dead:		127
 Survivors Incorrectly Classified as Dead:	19
@@ -11,7 +11,7 @@ Dead Incorrectly Classified as Survivors:	12
 Survivors Correctly Classified as Survivors:	65
 ```
 
-### test set classification report
+### Test Set Classification Report
 ```
               precision    recall  f1-score   support
 
