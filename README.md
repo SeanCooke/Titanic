@@ -20,7 +20,7 @@ xgb = XGBClassifier(n_estimators=100,
                     subsample=.9,
                     colsample_bytree=1,
                     gamma=1
-                   )
+)
 ```
 
 ## Feature Engineering
