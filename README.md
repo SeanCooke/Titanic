@@ -11,6 +11,18 @@ Dead Incorrectly Classified as Survivors:	12
 Survivors Correctly Classified as Survivors:	65
 ```
 
+test set classification report
+```
+              precision    recall  f1-score   support
+
+        Dead       0.87      0.91      0.89       139
+    Survived       0.84      0.77      0.81        84
+
+    accuracy                           0.86       223
+   macro avg       0.86      0.84      0.85       223
+weighted avg       0.86      0.86      0.86       223
+```
+
 ## xgboost
 xgboost uses an ensemble of decision trees. this model was selected as it is assumed that when the titanic was sinking, life boats were given to passengers based on a small number of demographic/familial factors. model tuning for the xgboost model is shown below
 ``` python
