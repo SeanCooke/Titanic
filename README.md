@@ -52,5 +52,5 @@ class_2 - (boolean) 1 if Pclass is 2, 0 otherwise
 class_3 - (boolean) 1 if Pclass is 3, 0 otherwise
 ```
 
-## Requirements
+## System Requirements
 Built with [conda 4.7.12](https://www.anaconda.com/distribution/), [Python 3.7.3](https://www.python.org/downloads/release/python-373/), [numpy 1.16.2](https://www.scipy.org/install.html), [pandas 0.24.2](https://pypi.org/project/pandas/0.24.2/), [sklearn 0.21.3](https://scikit-learn.org/stable/install.html), and [xgboost 0.90](https://pypi.org/project/xgboost/)
