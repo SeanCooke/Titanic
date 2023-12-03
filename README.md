@@ -1,7 +1,7 @@
 # Titanic
 
 ## Results
-Achieving 86% accuracy on a test data set using an xgboost classifier to predict whether a passenger survived the Titanic disaster. 86% accuracy is also achieved on the training data set which indicates the model is not overfit to our training data
+Achieving 86% accuracy on a test data set using an XGBost classifier to predict whether a passenger survived the Titanic disaster. 86% accuracy is also achieved on the training data set which indicates the model is not overfit to our training data
 
 ### Test Set Confusion Matrix
 ```
@@ -23,8 +23,8 @@ Survivors Correctly Classified as Survivors:	65
 weighted avg       0.86      0.86      0.86       223
 ```
 
-## xgboost
-xgboost uses an ensemble of decision trees. this model was selected as it is assumed that when the titanic was sinking, life boats were given to passengers based on a small number of demographic/familial factors. model tuning for the xgboost model is shown below
+## XGBoost
+XGBoost uses an ensemble of decision trees. this model was selected as it is assumed that when the titanic was sinking, life boats were given to passengers based on a small number of demographic/familial factors. model tuning for the XGBoost model is shown below
 ``` python
 xgb = XGBClassifier(n_estimators=100,
                     max_depth=3,
@@ -36,7 +36,7 @@ xgb = XGBClassifier(n_estimators=100,
 ```
 
 ## Feature Engineering
-The below features were supplied to the xgboost model
+The below features were supplied to the XGBoost model
 ```
 Fare - (float) the amount a passenger paid for their ticket
 family_bucket_1 - (boolean) 1 if the passenger was traveling alone, 0 otherwise
